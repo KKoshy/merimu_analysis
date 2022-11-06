@@ -1,0 +1,243 @@
+PDS_VERSION_ID               = PDS3                                           
+                                                                              
+RECORD_TYPE                  = FIXED_LENGTH                                   
+RECORD_BYTES                 = 211                                            
+FILE_RECORDS                 = 9050                                           
+^TABLE                       = "1TRANSFORMED.TAB"                             
+                                                                              
+DATA_SET_ID                  = "MER1/MER2-M-IMU-4-EDL-V1.0"                   
+MISSION_NAME                 = "MARS EXPLORATION ROVER"                       
+INSTRUMENT_HOST_NAME         = "MARS EXPLORATION ROVER 1"                     
+INSTRUMENT_NAME              = "INERTIAL MEASUREMENT UNIT"                    
+PRODUCT_ID                   = "1TRANSFORMED"                                 
+TARGET_NAME                  = "MARS"                                         
+SPACECRAFT_CLOCK_START_COUNT = "128277294.125"                                
+SPACECRAFT_CLOCK_STOP_COUNT  = "128279154.875"                                
+START_TIME                   = 2004-01-25T04:33:41.653                        
+STOP_TIME                    = 2004-01-25T05:04:44.582                        
+PRODUCT_CREATION_TIME        = 2004-06-15                                     
+                                                                              
+OBJECT                       = TABLE                                          
+  INTERCHANGE_FORMAT         = ASCII                                          
+  ROW_BYTES                  = 211                                            
+  ROWS                       = 9050                                           
+  COLUMNS                    = 15                                             
+                                                                              
+                                                                              
+  OBJECT                     = COLUMN                                         
+    NAME                     = "SPACECRAFT_CLOCK_START_COUNT"                 
+    DATA_TYPE                = ASCII_REAL                                     
+    START_BYTE               = 1                                              
+    BYTES                    = 13                                             
+    FORMAT                   = "F13.3"                                        
+    UNIT                     = SECOND                                         
+    DESCRIPTION              = "Spacecraft clock count in decimal             
+                               seconds."                                      
+  END_OBJECT                 = COLUMN                                         
+                                                                              
+  OBJECT                     = COLUMN                                         
+    NAME                     = "ROVER_IMU_QUATERNION_1"                       
+    DATA_TYPE                = ASCII_REAL                                     
+    START_BYTE               = 19                                             
+    BYTES                    = 9                                              
+    FORMAT                   = "F9.6"                                         
+    UNIT                     = "N/A"                                          
+    DESCRIPTION              = "First quaternion element, relative to J2000,  
+                               derived from the rover IMU's gyroscope;        
+                               transformed to the center of mass (CM) of the  
+                               entry capsule prior to deployment and to the   
+                               CM of the lander after deployment"             
+  END_OBJECT                 = COLUMN                                         
+                                                                              
+  OBJECT                     = COLUMN                                         
+    NAME                     = "ROVER_IMU_QUATERNION_2"                       
+    DATA_TYPE                = ASCII_REAL                                     
+    START_BYTE               = 33                                             
+    BYTES                    = 9                                              
+    FORMAT                   = "F9.6"                                         
+    UNIT                     = "N/A"                                          
+    DESCRIPTION              = "Second quaternion element, relative to J2000, 
+                               derived from the rover IMU gyroscope;          
+                               transformed to the center of mass (CM) of the  
+                               entry capsule prior to deployment and to the   
+                               CM of the lander after deployment"             
+  END_OBJECT                 = COLUMN                                         
+                                                                              
+  OBJECT                     = COLUMN                                         
+    NAME                     = "ROVER_IMU_QUATERNION_3"                       
+    DATA_TYPE                = ASCII_REAL                                     
+    START_BYTE               = 47                                             
+    BYTES                    = 9                                              
+    FORMAT                   = "F9.6"                                         
+    UNIT                     = "N/A"                                          
+    DESCRIPTION              = "Third quaternion element, relative to J2000,  
+                               derived from the rover IMU gyroscope;          
+                               transformed to the center of mass (CM) of the  
+                               entry capsule prior to deployment and to the   
+                               CM of the lander after deployment"             
+  END_OBJECT                 = COLUMN                                         
+                                                                              
+  OBJECT                     = COLUMN                                         
+    NAME                     = "ROVER_IMU_QUATERNION_4"                       
+    DATA_TYPE                = ASCII_REAL                                     
+    START_BYTE               = 61                                             
+    BYTES                    = 9                                              
+    FORMAT                   = "F9.6"                                         
+    UNIT                     = "N/A"                                          
+    DESCRIPTION              = "Fourth quaternion element, relative to J2000, 
+                               derived from the rover IMU gyroscope;          
+                               transformed to the center of mass (CM) of the  
+                               entry capsule prior to deployment and to the   
+                               CM of the lander after deployment; this value  
+                               is calculated from the first three quaternion  
+                               values, using the equation:                    
+                               e4 = (1 - e1*e1 + e2*e2 + e3*e3)**(1/2)        
+                               where e1, e2, e3, and e4 are the quaternion    
+                               elements"                                      
+  END_OBJECT                 = COLUMN                                         
+                                                                              
+  OBJECT                     = COLUMN                                         
+    NAME                     = "BACKSHELL_IMU_QUATERNION_1"                   
+    DATA_TYPE                = ASCII_REAL                                     
+    START_BYTE               = 75                                             
+    BYTES                    = 9                                              
+    FORMAT                   = "F9.6"                                         
+    UNIT                     = "N/A"                                          
+    DESCRIPTION              = "First quaternion element, relative to J2000,  
+                               derived from the backshell IMU gyroscope;      
+                               transformed to the center of mass (CM) of the  
+                               entry capsule prior to deployment and to the   
+                               CM of the backshell after deployment"          
+  END_OBJECT                 = COLUMN                                         
+                                                                              
+  OBJECT                     = COLUMN                                         
+    NAME                     = "BACKSHELL_IMU_QUATERNION_2"                   
+    DATA_TYPE                = ASCII_REAL                                     
+    START_BYTE               = 89                                             
+    BYTES                    = 9                                              
+    FORMAT                   = "F9.6"                                         
+    UNIT                     = "N/A"                                          
+    DESCRIPTION              = "Second quaternion element, relative to J2000, 
+                               derived from the backshell IMU's gyroscope;    
+                               transformed to the center of mass (CM) of the  
+                               entry capsule prior to deployment and to the   
+                               CM of the backshell after deployment"          
+  END_OBJECT                 = COLUMN                                         
+                                                                              
+  OBJECT                     = COLUMN                                         
+    NAME                     = "BACKSHELL_IMU_QUATERNION_3"                   
+    DATA_TYPE                = ASCII_REAL                                     
+    START_BYTE               = 103                                            
+    BYTES                    = 9                                              
+    FORMAT                   = "F9.6"                                         
+    UNIT                     = "N/A"                                          
+    DESCRIPTION              = "Third quaternion element, relative to J2000,  
+                               derived from the backshell IMU's gyroscope;    
+                               transformed to the center of mass (CM) of the  
+                               entry capsule prior to deployment and to the   
+                               CM of the backshell after deployment"          
+  END_OBJECT                 = COLUMN                                         
+                                                                              
+  OBJECT                     = COLUMN                                         
+    NAME                     = "BACKSHELL_IMU_QUATERNION_4"                   
+    DATA_TYPE                = ASCII_REAL                                     
+    START_BYTE               = 117                                            
+    BYTES                    = 9                                              
+    FORMAT                   = "F9.6"                                         
+    UNIT                     = "N/A"                                          
+    DESCRIPTION              = "Fourth quaternion element, relative to J2000, 
+                               derived from the backshell IMU's gyroscope;    
+                               transformed to the center of mass (CM) of the  
+                               entry capsule prior to deployment and to the   
+                               CM of the backshell after deployment; this valu
+                               is calculated from the first three quaternion  
+                               values, using the equation:                    
+                               e4 = (1 - e1*e1 + e2*e2 + e3*e3)**(1/2)        
+                               where e1, e2, e3, and e4 are the quaternion    
+                               elements"                                      
+  END_OBJECT                 = COLUMN                                         
+                                                                              
+  OBJECT                     = COLUMN                                         
+    NAME                     = "ROVER_IMU_DELTA_VEL_X"                        
+    DATA_TYPE                = ASCII_REAL                                     
+    START_BYTE               = 128                                            
+    BYTES                    = 12                                             
+    FORMAT                   = "F12.6"                                        
+    UNIT                     = "METERS/SECOND"                                
+    DESCRIPTION              = "Rover IMU accumulated velocity change in the  
+                               X-direction, transformed to the center of mass 
+                               (CM) of the entry capsule prior to deployment  
+                               and to the CM of the lander after deployment;  
+                               this value was periodically reset to zero"     
+  END_OBJECT                 = COLUMN                                         
+                                                                              
+  OBJECT                     = COLUMN                                         
+    NAME                     = "ROVER_IMU_DELTA_VEL_Y"                        
+    DATA_TYPE                = ASCII_REAL                                     
+    START_BYTE               = 142                                            
+    BYTES                    = 12                                             
+    FORMAT                   = "F12.6"                                        
+    UNIT                     = "METERS/SECOND"                                
+    DESCRIPTION              = "Rover IMU accumulated velocity change in the  
+                               Y-direction; transformed to the center of mass 
+                               (CM) of the entry capsule prior to deployment  
+                               and to the CM of the lander after deployment;  
+                               this value was periodically reset to zero"     
+  END_OBJECT                 = COLUMN                                         
+                                                                              
+  OBJECT                     = COLUMN                                         
+    NAME                     = "ROVER_IMU_DELTA_VEL_Z"                        
+    DATA_TYPE                = ASCII_REAL                                     
+    START_BYTE               = 156                                            
+    BYTES                    = 12                                             
+    FORMAT                   = "F12.6"                                        
+    UNIT                     = "METERS/SECOND"                                
+    DESCRIPTION              = "Rover IMU accumulated velocity change in the  
+                               Z-direction; transformed to the center of mass 
+                               (CM) of the entry capsule prior to deployment  
+                               and to the CM of the lander after deployment;  
+                               this value was periodically reset to zero"     
+  END_OBJECT                 = COLUMN                                         
+                                                                              
+  OBJECT                     = COLUMN                                         
+    NAME                     = "BACKSHELL_IMU_ACCEL_X"                        
+    DATA_TYPE                = ASCII_REAL                                     
+    START_BYTE               = 170                                            
+    BYTES                    = 12                                             
+    FORMAT                   = "F12.6"                                        
+    UNIT                     = "METERS/SECOND/SECOND"                         
+    DESCRIPTION              = "Backshell IMU acceleration in the X-direction;
+                               transformed to the center of mass (CM) of the  
+                               entry capsule prior to deployment and to the   
+                               CM of the backshell after deployment"          
+  END_OBJECT                 = COLUMN                                         
+                                                                              
+  OBJECT                     = COLUMN                                         
+    NAME                     = "BACKSHELL_IMU_ACCEL_Y"                        
+    DATA_TYPE                = ASCII_REAL                                     
+    START_BYTE               = 184                                            
+    BYTES                    = 12                                             
+    FORMAT                   = "F12.6"                                        
+    UNIT                     = "METERS/SECOND/SECOND"                         
+    DESCRIPTION              = "Backshell IMU acceleration in the Y-direction;
+                               transformed to the center of mass (CM) of the  
+                               entry capsule prior to deployment and to the   
+                               CM of the backshell after deployment"          
+  END_OBJECT                 = COLUMN                                         
+                                                                              
+  OBJECT                     = COLUMN                                         
+    NAME                     = "BACKSHELL_IMU_ACCEL_Z"                        
+    DATA_TYPE                = ASCII_REAL                                     
+    START_BYTE               = 198                                            
+    BYTES                    = 12                                             
+    FORMAT                   = "F12.6"                                        
+    UNIT                     = "METERS/SECOND/SECOND"                         
+    DESCRIPTION              = "Backshell IMU acceleration in the Z-direction;
+                               transformed to the center of mass (CM) of the  
+                               entry capsule prior to deployment and to the   
+                               CM of the backshell after deployment"          
+  END_OBJECT                 = COLUMN                                         
+                                                                              
+END_OBJECT                   = TABLE                                          
+                                                                              
+END                                                                           

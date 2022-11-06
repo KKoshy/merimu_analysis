@@ -1,0 +1,55 @@
+PDS_VERSION_ID                    = PDS3                                      
+RECORD_TYPE                       = FIXED_LENGTH                              
+RECORD_BYTES                      = 80                                        
+                                                                              
+OBJECT                            = REFERENCE                                 
+  REFERENCE_KEY_ID                = "ARVIDSONETAL2003"                        
+  REFERENCE_DESC                  = "                                         
+  Arvidson, R.E., et al., Physical properties and localization                
+  investigations associated with the 2003 Mars Exploration rovers, J.         
+  Geophys. Res., 108(E12), 8070, doi:10.1029/2002JE002041, 2003."             
+END_OBJECT                        = REFERENCE                                 
+                                                                              
+OBJECT                            = REFERENCE                                 
+ REFERENCE_KEY_ID                 = "CRISPETAL2003"                           
+ REFERENCE_DESC                   = "Crisp, J. A., M. Adler, J. R.            
+Matijevic, S. W. Squyres, R. E. Arvidson, and D. M. Kass, Mars                
+Exploration Rover Mission, J. Geophys. Res., 108(E12), 8061,                  
+DOI:10.1029/2002JE002038, 2003."                                              
+END_OBJECT                        = REFERENCE                                 
+                                                                              
+OBJECT                            = REFERENCE                                 
+ REFERENCE_KEY_ID                 = "GOLOMBEKETAL2003"                        
+ REFERENCE_DESC                   = "Golombek, M.P., J.A. Grant,              
+T.J. Parker, D.M. Kass, J.A. Crisp, S.W. Squyres, A.F.C. Haldemann,           
+M. Adler, W.J. Lee, N.T. Bridges, et al., Selection of the Mars               
+Exploration Rover Landing Sites, J. Geophys. Res., 108(E12), 8072,            
+2003."                                                                        
+END_OBJECT                        = REFERENCE                                 
+                                                                              
+OBJECT                            = REFERENCE                                 
+  REFERENCE_KEY_ID                = "MAKIETAL2003"                            
+  REFERENCE_DESC                  = "                                         
+  Maki, J.N., et al., Mars Exploration Rover Engineering Cameras, J.          
+  Geophys. Res., 108(E12), 8071, doi:10.1029/2003JE002077, 2003."             
+END_OBJECT                        = REFERENCE                                 
+                                                                              
+OBJECT                            = REFERENCE                                 
+ REFERENCE_KEY_ID                 = "SEIDELMANNETAL2002"                      
+ REFERENCE_DESC                   = "Seidelmann, P.K., V.K.Abalakin,          
+M. Bursa, M.E. Davies, C. DeBergh, J.H. Lieske, J. Oberst,                    
+J.L. Simon, E.M. Standish, P. Stook, et al., Report of the IAU/IAG            
+Working Group on Cartographic Coordinates and Rotational Elements             
+of the Planets and Satellites: 2000; Celestial Mechanics & Dynamical          
+Astronomy, 82, 83, 2002."                                                     
+END_OBJECT                        = REFERENCE                                 
+                                                                              
+OBJECT                            = REFERENCE                                 
+  REFERENCE_KEY_ID                = "SQUYRESETAL2003"                         
+  REFERENCE_DESC                  = "                                         
+  Squyres, S.W., et al., Athena Mars Rover science investigation, J.          
+  Geophys. Res., 108(E12), 8062, doi:10.1029/2003JE002121, 2003."             
+END_OBJECT                        = REFERENCE                                 
+                                                                              
+                                                                              
+END                                                                           

@@ -1,0 +1,178 @@
+PDS_VERSION_ID               = PDS3                                           
+                                                                              
+RECORD_TYPE                  = FIXED_LENGTH                                   
+RECORD_BYTES                 = 183                                            
+FILE_RECORDS                 = 2476                                           
+^TABLE                       = "1HIGHRATE.TAB"                                
+                                                                              
+DATA_SET_ID                  = "MER1/MER2-M-IMU-4-EDL-V1.0"                   
+MISSION_NAME                 = "MARS EXPLORATION ROVER"                       
+INSTRUMENT_HOST_NAME         = "MARS EXPLORATION ROVER 1"                     
+INSTRUMENT_NAME              = "INERTIAL MEASUREMENT UNIT"                    
+PRODUCT_ID                   = "1HIGHRATE"                                    
+TARGET_NAME                  = "MARS"                                         
+SPACECRAFT_CLOCK_START_COUNT = "128278284.000"                                
+SPACECRAFT_CLOCK_STOP_COUNT  = "128278594.500"                                
+START_TIME                   = 2004-01-25T04:50:11.164                        
+STOP_TIME                    = 2004-01-25T04:55:21.164                        
+PRODUCT_CREATION_TIME        = 2004-06-15                                     
+                                                                              
+OBJECT                       = TABLE                                          
+  INTERCHANGE_FORMAT         = ASCII                                          
+  ROW_BYTES                  = 183                                            
+  ROWS                       = 2476                                           
+  COLUMNS                    = 13                                             
+                                                                              
+                                                                              
+  OBJECT                     = COLUMN                                         
+    NAME                     = "SPACECRAFT_CLOCK_START_COUNT"                 
+    DATA_TYPE                = ASCII_REAL                                     
+    START_BYTE               = 1                                              
+    BYTES                    = 13                                             
+    FORMAT                   = "F13.3"                                        
+    UNIT                     = SECOND                                         
+    DESCRIPTION              = "Spacecraft clock count in decimal             
+                               seconds."                                      
+  END_OBJECT                 = COLUMN                                         
+                                                                              
+  OBJECT                     = COLUMN                                         
+    NAME                     = "ROVER_IMU_RATES_X"                            
+    DATA_TYPE                = ASCII_REAL                                     
+    START_BYTE               = 19                                             
+    BYTES                    = 9                                              
+    FORMAT                   = "F9.6"                                         
+    UNIT                     = "RADIANS/SECOND"                               
+    DESCRIPTION              = "Rotation rate of the Rover                    
+                               IMU about the IMU's X-axis"                    
+  END_OBJECT                 = COLUMN                                         
+                                                                              
+  OBJECT                     = COLUMN                                         
+    NAME                     = "ROVER_IMU_RATES_Y"                            
+    DATA_TYPE                = ASCII_REAL                                     
+    START_BYTE               = 33                                             
+    BYTES                    = 9                                              
+    FORMAT                   = "F9.6"                                         
+    UNIT                     = "RADIANS/SECOND"                               
+    DESCRIPTION              = "Rotation rate of the Rover IMU                
+                               about the IMU's Y-axis"                        
+  END_OBJECT                 = COLUMN                                         
+                                                                              
+  OBJECT                     = COLUMN                                         
+    NAME                     = "ROVER_IMU_RATES_Z"                            
+    DATA_TYPE                = ASCII_REAL                                     
+    START_BYTE               = 47                                             
+    BYTES                    = 9                                              
+    FORMAT                   = "F9.6"                                         
+    UNIT                     = "RADIANS/SECOND"                               
+    DESCRIPTION              = "Rotation rate of the Rover IMU                
+                               about the IMU's Z-axis"                        
+  END_OBJECT                 = COLUMN                                         
+                                                                              
+  OBJECT                     = COLUMN                                         
+    NAME                     = "ROVER_IMU_DELTA_VEL_X"                        
+    DATA_TYPE                = ASCII_REAL                                     
+    START_BYTE               = 61                                             
+    BYTES                    = 9                                              
+    FORMAT                   = "F9.6"                                         
+    UNIT                     = "METERS/SECOND"                                
+    DESCRIPTION              = "Rover IMU velocity change in the IMU's        
+                                X-direction, during one time interval         
+                                of 0.125 seconds"                             
+  END_OBJECT                 = COLUMN                                         
+                                                                              
+  OBJECT                     = COLUMN                                         
+    NAME                     = "ROVER_IMU_DELTA_VEL_Y"                        
+    DATA_TYPE                = ASCII_REAL                                     
+    START_BYTE               = 75                                             
+    BYTES                    = 9                                              
+    FORMAT                   = "F9.6"                                         
+    UNIT                     = "METERS/SECOND"                                
+    DESCRIPTION              = "Rover IMU velocity change in the IMU's        
+                                Y-direction, during one time interval         
+                                of 0.125 seconds"                             
+  END_OBJECT                 = COLUMN                                         
+                                                                              
+  OBJECT                     = COLUMN                                         
+    NAME                     = "ROVER_IMU_DELTA_VEL_Z"                        
+    DATA_TYPE                = ASCII_REAL                                     
+    START_BYTE               = 89                                             
+    BYTES                    = 9                                              
+    FORMAT                   = "F9.6"                                         
+    UNIT                     = "METERS/SECOND"                                
+    DESCRIPTION              = "Rover IMU velocity change in the IMU's        
+                                Z-direction, during one time interval         
+                                of 0.125 seconds"                             
+  END_OBJECT                 = COLUMN                                         
+                                                                              
+  OBJECT                     = COLUMN                                         
+    NAME                     = "BACKSHELL_IMU_RATES_X"                        
+    DATA_TYPE                = ASCII_REAL                                     
+    START_BYTE               = 103                                            
+    BYTES                    = 9                                              
+    FORMAT                   = "F9.6"                                         
+    UNIT                     = "RADIANS/SECOND"                               
+    DESCRIPTION              = "Rotation rate of the backshell                
+                               IMU about the IMU's X-axis"                    
+  END_OBJECT                 = COLUMN                                         
+                                                                              
+  OBJECT                     = COLUMN                                         
+    NAME                     = "BACKSHELL_IMU_RATES_Y"                        
+    DATA_TYPE                = ASCII_REAL                                     
+    START_BYTE               = 117                                            
+    BYTES                    = 9                                              
+    FORMAT                   = "F9.6"                                         
+    UNIT                     = "RADIANS/SECOND"                               
+    DESCRIPTION              = "Rotation rate of the backshell IMU            
+                               about the IMU's Y-axis"                        
+  END_OBJECT                 = COLUMN                                         
+                                                                              
+  OBJECT                     = COLUMN                                         
+    NAME                     = "BACKSHELL_IMU_RATES_Z"                        
+    DATA_TYPE                = ASCII_REAL                                     
+    START_BYTE               = 131                                            
+    BYTES                    = 9                                              
+    FORMAT                   = "F9.6"                                         
+    UNIT                     = "RADIANS/SECOND"                               
+    DESCRIPTION              = "Rotation rate of the backshell IMU            
+                               about the IMU's Z-axis"                        
+  END_OBJECT                 = COLUMN                                         
+                                                                              
+  OBJECT                     = COLUMN                                         
+    NAME                     = "BACKSHELL_IMU_DELTA_VEL_X"                    
+    DATA_TYPE                = ASCII_REAL                                     
+    START_BYTE               = 145                                            
+    BYTES                    = 9                                              
+    FORMAT                   = "F9.6"                                         
+    UNIT                     = "METERS/SECOND"                                
+    DESCRIPTION              = "Backshell IMU velocity change in the IMU's    
+                                X-direction, during one time interval         
+                                of 0.125 seconds"                             
+  END_OBJECT                 = COLUMN                                         
+                                                                              
+  OBJECT                     = COLUMN                                         
+    NAME                     = "BACKSHELL_IMU_DELTA_VEL_Y"                    
+    DATA_TYPE                = ASCII_REAL                                     
+    START_BYTE               = 159                                            
+    BYTES                    = 9                                              
+    FORMAT                   = "F9.6"                                         
+    UNIT                     = "METERS/SECOND"                                
+    DESCRIPTION              = "Backshell IMU velocity change in the IMU's    
+                                Y-direction, during one time interval         
+                                of 0.125 seconds"                             
+  END_OBJECT                 = COLUMN                                         
+                                                                              
+  OBJECT                     = COLUMN                                         
+    NAME                     = "BACKSHELL_IMU_DELTA_VEL_Z"                    
+    DATA_TYPE                = ASCII_REAL                                     
+    START_BYTE               = 173                                            
+    BYTES                    = 9                                              
+    FORMAT                   = "F9.6"                                         
+    UNIT                     = "METERS/SECOND"                                
+    DESCRIPTION              = "Backshell IMU velocity change in the IMU's    
+                                Z-direction, during one time interval         
+                                of 0.125 seconds"                             
+  END_OBJECT                 = COLUMN                                         
+                                                                              
+END_OBJECT                   = TABLE                                          
+                                                                              
+END                                                                           

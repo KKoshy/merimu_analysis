@@ -1,0 +1,62 @@
+PDS_VERSION_ID               = PDS3                                           
+                                                                              
+OBJECT                       = VOLUME                                         
+  VOLUME_SERIES_NAME         = "MISSION TO MARS"                              
+  VOLUME_SET_NAME            = "MER INERTIAL MEASUREMENT UNIT EDL ARCHIVE"    
+  VOLUME_SET_ID              = USA_NASA_PDS_MERIMU_1XXX                       
+  VOLUMES                    = "UNK"                                          
+  VOLUME_NAME                = "MER INERTIAL MEASUREMENT UNIT EDL ARCHIVE"    
+  VOLUME_ID                  = "MERIMU_1001"                                  
+  VOLUME_FORMAT              = "ISO-9660_LEVEL2"                              
+  VOLUME_VERSION_ID          = "VERSION 1"                                    
+  MEDIUM_TYPE                = "ELECTRONIC"                                   
+  DATA_SET_ID                = "MER1/MER2-M-IMU-4-EDL-V1.0"                   
+  PUBLICATION_DATE           = 2004-08-24                                     
+  DESCRIPTION                = "This volume contains all IMU                  
+                                measurements available from the EDL           
+                                phase of the MER1 and MER2 missions."         
+                                                                              
+  MISSION_NAME               = "MARS EXPLORATION ROVER"                       
+  SPACECRAFT_NAME            = {"MARS EXPLORATION ROVER 1",                   
+                                "MARS EXPLORATION ROVER 2"}                   
+                                                                              
+  OBJECT                     = DATA_PRODUCER                                  
+    INSTITUTION_NAME         = "NEW MEXICO STATE UNIVERSITY"                  
+    FACILITY_NAME            = "ATMOSPHERES NODE"                             
+    FULL_NAME                = "JAMES R. MURPHY"                              
+    ADDRESS_TEXT             = "NEW MEXICO STATE UNIVERSITY \n                
+                                DEPARTMENT OF ASTRONOMY \n                    
+                                P.O. BOX 30001/DEPT. 4500 \n                  
+                                LAS CRUCES, NM 88003 \n                       
+                                USA"                                          
+    TELEPHONE_NUMBER         = "5056465333"                                   
+    ELECTRONIC_MAIL_TYPE     = "INTERNET"                                     
+    ELECTRONIC_MAIL_ID       = "murphy@nmsu.edu"                              
+  END_OBJECT                 = DATA_PRODUCER                                  
+                                                                              
+  OBJECT                     = DATA_PRODUCER                                  
+    INSTITUTION_NAME         = "JET PROPULSION LABORATORY"                    
+    FACILITY_NAME            = "NULL"                                         
+    FULL_NAME                = "DAVID M. KASS"                                
+    ADDRESS_TEXT             = "JET PROPULSION LABORATORY \n                  
+                                4800 OAK GROVE DRIVE \n                       
+                                MAILSTOP 169-237 \n                           
+                                PASADENA, CA 91109 \n                         
+                                USA"                                          
+    TELEPHONE_NUMBER         = "8183543560"                                   
+    ELECTRONIC_MAIL_TYPE     = "INTERNET"                                     
+    ELECTRONIC_MAIL_ID       = "david.kass@jpl.nasa.gov"                      
+  END_OBJECT                 = DATA_PRODUCER                                  
+                                                                              
+  OBJECT                     = CATALOG                                        
+    ^DATA_SET_CATALOG        = "DATASET.CAT"                                  
+    ^INSTRUMENT_CATALOG      = "INST.CAT"                                     
+    ^INSTRUMENT_HOST_CATALOG = "MER_INSTHOST.CAT"                             
+    ^MISSION_CATALOG         = "MER_MISSION.CAT"                              
+    ^PERSONNEL_CATALOG       = "PERSON.CAT"                                   
+    ^REFERENCE_CATALOG       = "REF.CAT"                                      
+  END_OBJECT                 = CATALOG                                        
+                                                                              
+END_OBJECT                   = VOLUME                                         
+END                                                                           
+                                                                              

@@ -1,0 +1,65 @@
+PDS_VERSION_ID                    = PDS3                                      
+RECORD_TYPE                       = FIXED_LENGTH                              
+RECORD_BYTES                      = 80                                        
+                                                                              
+                                                                              
+OBJECT                            = PERSONNEL                                 
+ PDS_USER_ID                      = JMURPHY                                   
+                                                                              
+ OBJECT                           = PERSONNEL_INFORMATION                     
+  FULL_NAME                       = "JAMES R. MURPHY"                         
+  LAST_NAME                       = MURPHY                                    
+  TELEPHONE_NUMBER                = "5056465333"                              
+  ALTERNATE_TELEPHONE_NUMBER      = "5056464438"                              
+  FAX_NUMBER                      = "5056461602"                              
+  INSTITUTION_NAME                = "NEW MEXICO STATE UNIVERSITY"             
+  NODE_ID                         = "ATMOS"                                   
+  PDS_AFFILIATION                 = "NODE"                                    
+  PDS_ADDRESS_BOOK_FLAG           = "Y"                                       
+  REGISTRATION_DATE               = "UNK"                                     
+  ADDRESS_TEXT                    = "NEW MEXICO STATE UNIVERSITY              
+                                     DEPARTMENT OF ASTRONOMY                  
+                                     P. O. BOX 30001/MSC 4500                 
+                                     LAS CRUCES, NM 88003"                    
+ END_OBJECT                       = PERSONNEL_INFORMATION                     
+                                                                              
+                                                                              
+ OBJECT                           = PERSONNEL_ELECTRONIC_MAIL                 
+  ELECTRONIC_MAIL_ID              = "murphy@nmsu.edu"                         
+  ELECTRONIC_MAIL_TYPE            = "INTERNET"                                
+  PREFERENCE_ID                   = 1                                         
+ END_OBJECT                       = PERSONNEL_ELECTRONIC_MAIL                 
+                                                                              
+END_OBJECT                        = PERSONNEL                                 
+                                                                              
+                                                                              
+OBJECT                            = PERSONNEL                                 
+ PDS_USER_ID                      = DKASS                                     
+                                                                              
+ OBJECT                           = PERSONNEL_INFORMATION                     
+  FULL_NAME                       = "DAVID M. KASS"                           
+  LAST_NAME                       = KASS                                      
+  TELEPHONE_NUMBER                = "8183543560"                              
+  ALTERNATE_TELEPHONE_NUMBER      = "N/A"                                     
+  FAX_NUMBER                      = "8183934619"                              
+  INSTITUTION_NAME                = "JET PROPULSION LABORATORY"               
+  NODE_ID                         = "ATMOS"                                   
+  PDS_AFFILIATION                 = "DATA SUPPLIER"                           
+  PDS_ADDRESS_BOOK_FLAG           = "N"                                       
+  REGISTRATION_DATE               = "UNK"                                     
+  ADDRESS_TEXT                    = "JET PROPULSION LABORATORY                
+                                     MAIL STOP 169-237                        
+                                     4800 OAK GROVE DRIVE                     
+                                     PASADENA, CA 91109"                      
+ END_OBJECT                       = PERSONNEL_INFORMATION                     
+                                                                              
+ OBJECT                           = PERSONNEL_ELECTRONIC_MAIL                 
+  ELECTRONIC_MAIL_ID              = "david.kass@jpl.nasa.gov"                 
+  ELECTRONIC_MAIL_TYPE            = "INTERNET"                                
+  PREFERENCE_ID                   = 1                                         
+ END_OBJECT                       = PERSONNEL_ELECTRONIC_MAIL                 
+                                                                              
+END_OBJECT                        = PERSONNEL                                 
+                                                                              
+                                                                              
+END                                                                           

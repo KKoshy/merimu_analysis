@@ -1,0 +1,48 @@
+PDS_VERSION_ID         = PDS3
+RECORD_TYPE            = STREAM
+OBJECT                 = TEXT
+  PUBLICATION_DATE     = 2004-07-16
+  INTERCHANGE_FORMAT   = ASCII
+  NOTE                 = "Description of the CATALOG directory
+                          contents for the MER IMU archive"
+END_OBJECT             = TEXT
+END
+
+                      CATALOG Directory Contents
+
+The CATALOG directory contains high-level catalog objects for the Mars
+MER IMU RDR archive.  These catalog objects are often
+updated as more precise information becomes available.  For the latest
+versions of these files, please consult the Planetary Data System Data
+Set Catalog available on the PDS web site at:
+
+        http://pds.jpl.nasa.gov/
+
+(More information about contacting the PDS Central Node is available
+in the AAREADME.TXT file on this CD.)
+
+The following files are found in this directory:
+
+CATINFO.TXT  - The file you are now reading.
+
+MER_MISSION.CAT  - High-level catalog object for the Mars MER
+                   mission.
+
+MER1_INSTHOST.CAT - High-level catalog object for the Mars MER1
+                    lander.
+
+MER2_INSTHOST.CAT - High-level catalog object for the Mars MER2
+                    lander.
+
+DATASET.CAT  - Description of the MER IMU data set
+
+INST.CAT     - Description of the IMU instrumentation on the Mars 
+               Exploration Rovers
+
+REF.CAT      - High-level catalog object for references cited in the
+               other catalog object files and documents on this CD.
+
+PERSON.CAT   - High-level catalog object for personnel officially
+               responsible for the production and distribution of the
+               Mars MER IMU EDR and RDR archive.
+

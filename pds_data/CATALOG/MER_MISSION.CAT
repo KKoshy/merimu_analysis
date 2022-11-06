@@ -1,0 +1,427 @@
+PDS_VERSION_ID         = PDS3
+LABEL_REVISION_NOTE    = "2004-08-09 Joy Crisp"
+RECORD_TYPE            = STREAM
+
+OBJECT                 = MISSION
+  MISSION_NAME         = "MARS EXPLORATION ROVER"
+
+  OBJECT               = MISSION_INFORMATION
+    MISSION_START_DATE = 2000-05-08
+    MISSION_STOP_DATE  = UNK
+    MISSION_ALIAS_NAME = "N/A"
+    MISSION_DESC       = "
+
+  Mission Overview
+  ================
+    The Mars Exploration Rover (MER) mission consisted of two
+    spacecraft, MER-2 hardware (including Spirit rover) which was used
+    to carry out the MER-A mission, and MER-1 hardware (including 
+    Opportunity rover) which used for the MER-B mission 
+    [CRISPETAL2003].  Spirit was launched June 10, 2003, on a Delta 
+    II 7925 launch vehicle.  Opportunity followed 3 weeks later, 
+    launching July 7, 2003 on a Delta II 7925 Heavy vehicle.  Each 
+    spacecraft followed a Type I trajectory from Earth to Mars, with 
+    Spirit landing in Gusev Crater on January 4, 2004 and Opportunity 
+    landing in Meridiani Planum on January 25, 2004.  The Earth-Mars 
+    range was 105 million km at the time of Spirit's landing and 89 
+    million km at the time of Opportunity's landing.
+
+    The spacecraft design was based on the Mars Pathfinder configuration
+    for cruise and entry, descent, and landing.  Each MER spacecraft
+    contained a rover which was carried to Mars inside a lander.  The
+    lander was packed inside a heatshield and backshell attached to a
+    cruise stage.  At Mars arrival, the cruise stage was jettisoned from
+    the entry capsule.  The entry capsule entered the Martian atmosphere
+    directly from the Earth-Mars transfer trajectory at a velocity of
+    5.4 km/s.  The lander velocity was reduced from this high entry
+    speed by the application of aerodynamic braking by a parachute and
+    aeroshell, propulsive acceleration using small solid rocket motors,
+    and inflated airbags to reduce the remaining vertical and horizontal
+    velocity components at surface impact (involving significant 
+    bouncing).  Key engineering status information was collected and 
+    returned in near real time to the extent possible during entry and 
+    descent.  In addition, all engineering data obtained during the 
+    critical entry, descent, and landing phase were recorded for later 
+    playback during the first week of landed operations.
+
+    The two landing sites were selected because of their science
+    potential and safety characteristics [GOLOMBEKETAL2003].  The two
+    sites exhibited different types of evidence suggesting past
+    liquid-water activity. For Gusev, the evidence was primarily
+    geomorphologic (possible crater lake) and for Meridiani, it was
+    primarily mineralogic (gray coarse-grained hematite).  The
+    navigation team determined the location of the landing sites in
+    inertial space, by fitting direct-to-earth (DTE) two-way X-band
+    Doppler and two passes of UHF two-way Doppler between each rover and
+    Mars Odyssey.  The inertial positions, translated to the MOLA IAU
+    2000 frame [SEIDELMANNETAL2002] are 4.571892 deg S latitude and
+    175.47848 deg E longitude for Spirit, and 1.948282 deg S latitude,
+    354.47417 deg E longitude for Opportunity.  The location of the landing
+    sites, with respect to surface features in maps produced in the MOLA
+    IAU 2000 cartographic reference frame, are 14.5692 deg S latitude,
+    175.4729 deg E longitude for Spirit and 1.9462 deg S latitude, 354.4734 
+    deg E longitude for Opportunity.
+
+    Each of the identical rovers was equipped with a science payload
+    consisting of two remote sensing instruments at the top of a
+    rotatable mast to survey the surrounding terrain, a robotic arm
+    capable of placing three instruments and a rock abrasion tool (RAT)
+    on selected rock and soil samples, and several on-board magnets and
+    calibration targets.  Engineering sensors and other components on
+    the rovers useful for science investigations included stereo
+    navigation cameras, stereo hazard cameras in front and rear, wheel
+    motors, wheel motor current and voltage, the wheels themselves for
+    digging, gyros, accelerometers, and reference solar cell readings.
+    Mission operations allowed commanding of the rover each martian day,
+    or sol, on the basis of the previous sol's data.  Over the 90-sol
+    prime mission lifetime the rovers carried out field geology
+    investigations, exploration, and atmospheric characterization.
+
+    Eight mission phases were defined to describe the periods of
+    activity during the mission.  Brief summaries of the activities in
+    each phase are described below. The mission has been described in
+    many papers, including a December 2003 special section in the
+    Journal of Geophysical Research - Planets.
+
+
+  Mission Phases
+  ==============
+
+    DEVELOPMENT
+    -----------
+      The development phase began with the start of mission funding in
+      May, 2000. During this phase, the science and technology
+      requirements were developed and analyzed, and the spacecraft and
+      mission were designed.  The instruments and spacecraft were
+      fabricated and tested before delivery to Kennedy Space Center.
+      The design of the spacecraft trajectory and mission operations
+      were also determined during this period.
+
+      Spacecraft Id     : MER2
+      Target Name       : MARS
+      Mission Phase Start Time  : 2000-05-08
+      Mission Phase Stop Time           : 2003-06-10
+      Spacecraft Operations Type        : LANDER
+
+      Spacecraft Id     : MER1
+      Target Name       : MARS
+      Mission Phase Start Time  : 2000-05-08
+      Mission Phase Stop Time           : 2003-07-07
+      Spacecraft Operations Type        : LANDER
+
+
+    LAUNCH
+    ------
+      The launch phase for each vehicle began at the final countdown
+      through spacecraft separation from the upper stage.  Spirit
+      (MER-2 hardware) was launched June 10, 2003, at 1759 UTC
+      (1359 EDT) from launch complex 17A at Cape Canaveral Air Force
+      Station, Florida.  The launch azimuth was 93 degrees.  The boost
+      portion of the launch vehicle trajectory took approximately 10
+      minutes, and was followed by a short coast phase in a parking 
+      orbit for approximately 15 minutes.  After third stage burnout, 
+      the upper stage despun the stack using a yo-yo depin system.
+      Separation of the third stage occurred approximately 36 minutes
+      after launch.
+
+      Opportunity (MER-1 hardware) was launched July 7, 2003, at
+      0318 UTC (1118 EDT) from launch complex 17B at Cape Canaveral Air
+      Force Station, Florida. The launch azimuth was 99 degrees.  The
+      boost portion of the launch vehicle trajectory took approximately
+      9 minutes, and was followed by a long coast phase of approximately
+      60 minutes in a parking orbit.  After third stage burnout, the
+      upper stage despun the stack using a yo-yo depin system.
+      Separation of the third stage occurred approximately 83 minutes
+      after launch.
+
+      Spacecraft Id     : MER2
+      Target Name       : MARS
+      Mission Phase Start Time  : 2003-06-10
+      Mission Phase Stop Time           : 2003-06-10
+      Spacecraft Operations Type        : LANDER
+
+      Spacecraft Id     : MER1
+      Target Name       : MARS
+      Mission Phase Start Time  : 2003-07-07
+      Mission Phase Stop Time           : 2003-07-07
+      Spacecraft Operations Type        : LANDER
+
+
+    CRUISE
+    ------
+      The cruise phase for each spacecraft began soon after separation
+      from the third stage and ended 45 days before entry into the Mars
+      atmosphere. The duration of cruise phase was 162 days for Spirit
+      and 156 days for Opportunity.  The major activities during this
+      phase included: checkout and maintenance of the spacecraft in its
+      flight configuration, monitoring, characterization and calibration
+      of the spacecraft and payload systems, software parameter updates,
+      attitude correction turns, navigation activities for determining
+      and correcting the vehicle's flight path, and preparation for EDL
+      and surface operations, including EDL X-band communication tests.
+      No science investigations were conducted during cruise, except for
+      instrument health checkouts.
+
+      Spacecraft Id     : MER2
+      Target Name       : MARS
+      Mission Phase Start Time  : 2003-06-10
+      Mission Phase Stop Time           : 2003-11-19
+      Spacecraft Operations Type        : LANDER
+
+      Spacecraft Id     : MER1
+      Target Name       : MARS
+      Mission Phase Start Time  : 2003-07-07
+      Mission Phase Stop Time           : 2003-12-10
+      Spacecraft Operations Type        : LANDER
+
+
+    APPROACH
+    --------
+      The approach phase was dedicated to the activities necessary to
+      ensure a successful Entry, Descent, and Landing for each
+      spacecraft, beginning 45 days before entry into the Martian
+      atmosphere and ending at the atmospheric entry interface point
+      3522.2 km from the center of Mars.  The main activities during
+      this phase were: acquisition and processing of navigation data to
+      support development of the final trajectory correction maneuvers
+      and activities leading up to the final turn to the entry attitude
+      70 minutes before entry and separation from the cruise stage 15
+      minutes before entry.
+
+      Spacecraft Id     : MER2
+      Target Name       : MARS
+      Mission Phase Start Time  : 2003-11-19
+      Mission Phase Stop Time           : 2004-01-03
+      Spacecraft Operations Type        : LANDER
+
+      Spacecraft Id     : MER1
+      Target Name       : MARS
+      Mission Phase Start Time  : 2003-12-10
+      Mission Phase Stop Time           : 2004-01-24
+      Spacecraft Operations Type        : LANDER
+
+
+    ENTRY, DESCENT, AND LANDING
+    ---------------------------
+      The entry, descent, and landing (EDL) phase for each spacecraft
+      mission started six minutes prior to landing, and ended after
+      landing, at which time each lander was on the surface of Mars in a
+      thermally stable, positive energy balance, in a commandable
+      configuration, having completed critical Sol 1 deployments
+      (airbags retracted, lander petals and solar arrays opened).
+      Approximately 20 seconds after parachute deploy, the heatshield
+      separated from each spacecraft, followed approximately 10 seconds
+      later by lander separation on a bridle.  This was followed by
+      radar acquisition of the ground, acquisition of three images by
+      the DIMES (Descent Image Motion Estimation System), airbag
+      inflation, RAD/TIRS rocket firing, bridle cut(6.5 m above the
+      surface for Spirit, 8.5 m for Opportunity), and landing.  The
+      landing (first impact) occurred at 04:26 UTC on January 4, 2004
+      for Spirit (1425 Mars local solar time) and 04:55 UTC on January
+      25, 2004 for Opportunity (1323 Mars local solar time).  Spirit
+      bounced 28 times before coming to rest on the base petal of the
+      lander. After opening the petals, the base petal was oriented at
+      a tilt of 2 degrees.  Opportunity bounced 26 times before coming
+      to rest on a side petal (+Y petal) of the lander. After opening
+      the petals, with the base petal down on the surface, the base
+      petal was oriented at a tilt of 5 degrees.
+
+      Spacecraft Id     : MER2
+      Target Name       : MARS
+      Mission Phase Start Time  : 2004-01-04
+      Mission Phase Stop Time           : 2004-01-04
+      Spacecraft Operations Type        : LANDER
+
+      Spacecraft Id     : MER1
+      Target Name       : MARS
+      Mission Phase Start Time  : 2004-01-25
+      Mission Phase Stop Time           : 2004-01-25
+      Spacecraft Operations Type        : LANDER
+
+
+    POST-LANDING THROUGH EGRESS
+    ---------------------------
+      The post-landing through egress phase of each mission began after
+      the lander petals and rover solar panels had been opened.  This
+      phase ended 12 Martian 'sols' (each sol being 24.66 hours) after
+      landing for Spirit, and 7 Martian 'sols' for Opportunity, when
+      each rover drove off of the lander directly onto the surface of
+      Mars.  Data confirming the egress event for Spirit were received
+      at 01:53 PST January 15, 2004 (09:53, January 15, UTC).  Engineers
+      received confirmation that Opportunity's six wheels successfully
+      rolled off the lander and onto martian soil at 03:01 PST,
+      January 31, 2004 (11:01 January 31, UTC).
+
+      Spacecraft Id     : MER2
+      Target Name       : MARS
+      Mission Phase Start Time  : 2004-01-04
+      Mission Phase Stop Time           : 2004-01-15
+      Spacecraft Operations Type        : LANDER
+
+      Spacecraft Id     : MER1
+      Target Name       : MARS
+      Mission Phase Start Time  : 2004-01-25
+      Mission Phase Stop Time           : 2004-01-31
+      Spacecraft Operations Type        : LANDER
+
+
+    PRIMARY MISSION
+    ---------------
+      Spirit and Opportunity's primary missions each lasted for 90
+      Martian 'sols' from time of landing.  During this phase and the
+      extended mission phase, a wealth of science and engineering
+      information was collected from the rover and instrument payload.
+      During Spirit's mission, the rover traveled in a primarily
+      northeast direction from its landing site to the 210-meter
+      diameter crater informally called 'Bonneville,' and then headed
+      southeast towards the hills nicknamed 'Columbia Hills,' covering
+      an odometry of 635 meters.  During that time, Spirit acquired
+      23810 Pancam images, 2886 Navcam images, 3980 Hazcam images, and
+      1872 MI images (these image counts include full frames, subsampled
+      frames, downsampled frames, and thumbnails). During Opportunity's
+      prime mission, the rover spent the first two months investigating
+      the 20-meter diameter crater nicknamed 'Eagle' and then it headed
+      east towards the 130-meter diameter crater nicknamed 'Endurance,'
+      covering an odometry of 772 meters.  During the prime
+      mission, Opportunity acquired 22503 Pancam images, 2343 Navcam
+      images, 4421 Hazcam images, and 1395 MI images.
+
+
+      Spacecraft Id     : MER2
+      Target Name       : MARS
+      Mission Phase Start Time  : 2004-01-11
+      Mission Phase Stop Time           : 2004-04-06
+      Spacecraft Operations Type        : LANDER
+
+      Spacecraft Id     : MER1
+      Target Name       : MARS
+      Mission Phase Start Time  : 2004-02-01
+      Mission Phase Stop Time           : 2004-04-27
+      Spacecraft Operations Type        : LANDER
+
+
+    EXTENDED MISSION
+    ----------------
+      The rovers' missions have not yet ended.
+
+      Spacecraft Id     : MER2
+      Target Name       : MARS
+      Mission Phase Start Time  : 2004-04-06
+      Mission Phase Stop Time           : 2004-xx-xx
+      Spacecraft Operations Type        : LANDER
+
+      Spacecraft Id     : MER1
+      Target Name       : MARS
+      Mission Phase Start Time  : 2004-04-27
+      Mission Phase Stop Time           : 2004-xx-xx
+      Spacecraft Operations Type        : LANDER"
+
+  MISSION_OBJECTIVES_SUMMARY = "
+
+  Mission Objectives Overview
+  ===========================
+    The MER mission had a set of science and technology objectives.
+    The science was closely aligned with the Mars Exploration Program
+    objective of determining the degree to which Mars provided
+    conditions necessary for formation and preservation of prebiotic
+    compounds and whether life started and evolved.  This objective can
+    be broadly stated as defining habitability of Mars and providing
+    an understanding of roles of tectonic and climatic processes in
+    possibly providing the conditions that led to life.  The presence of
+    water and its interaction with crustal materials is of fundamental
+    importance.  Thus, three of the MER objectives focused on exploring
+    for evidence of water in the past: (1) to investigate landing sites
+    which have a high probability of containing evidence of the action
+    of liquid water, (2) to search for and characterize a diversity of
+    rocks and soils that hold clues to past water activity, and (3) to
+    extract clues related to the environmental conditions when liquid
+    water was present and assess whether those environments were
+    conducive for life.
+
+    The other MER science objectives were related to the Mars
+    Exploration Program objective of determining the nature and sequence
+    of the various geologic processes that have created and modified the
+    Martian crust and surface: (4) to determine the spatial distribution
+    and composition of minerals, rocks and soils surrounding the landing
+    sites, (5) to determine the nature of local surface geologic
+    processes from surface morphology and chemistry, (6) to calibrate
+    and validate orbital remote sensing data and assess the amount and
+    scale of heterogeneity at each landing site, (7) for iron-containing
+    minerals, to identify and quantify relative amounts of specific
+    mineral types that contain H20 or OH, or are indicators of formation
+    by an aqueous process, and (8) to characterize the mineral
+    assemblages and textures of different types of rocks and soils and
+    put them in geologic context.  These are basic field geology
+    objectives that can be carried out at any landing site, but will
+    provide the basis for addressing the first three objectives related
+    to past water and thus habitability.
+
+    Three additional objectives for MER were technology related: (9) to
+    demonstrate long- range traverse capabilities by mobile science
+    platforms to validate long-lived, long-distance rover technologies,
+    (10) to demonstrate complex science operations through the
+    simultaneous use of multiple science-focused mobile laboratories,
+    and (11) to validate the standards, protocols and capabilities of
+    NASA-provided and internationally-provided orbiter-based Mars
+    communications infrastructure. These objectives provided experience,
+    lessons-learned, and technology feed-forward to enable improved Mars
+    science missions in the future.  While not part of the formal
+    mission objectives, the rovers' remote sensing instruments were also
+    used to make scientific observations of the martian atmosphere.
+
+    The objectives of the Extended Mission planned for May through
+    September, 2004, are as follows:
+
+    1) Extend investigation of the water history in Gusev Crater by
+       traversing to the Columbia Hills
+
+    2) Investigate the geologic context of the Opportunity outcrop by
+       traversing to other targets (Endurance crater and the etched
+       region south of the landing site) and conducting in-situ
+       investigations of exposed outcrops
+
+    3) Continue atmospheric measurements at both sites to encompass a
+       longer portion of the Martian seasonal cycle
+
+    4) Calibrate and validate orbital remote sensing data for additional
+       types of soil and rock deposits
+
+    5) Conduct long range traverses (>1 km) to extend Mars surface
+       exploration and demonstrate relevant mobility technologies
+
+    6) Demonstrate long term, sustainable operations of two mobile
+       science platforms on remote planetary surfaces
+
+    7) Characterize solar array performance over long durations of dust
+       depositions at two different landing sites
+"
+
+  END_OBJECT         = MISSION_INFORMATION
+
+
+  OBJECT             = MISSION_HOST
+    INSTRUMENT_HOST_ID = {MER1,MER2}
+
+    OBJECT             = MISSION_TARGET
+      TARGET_NAME      = MARS
+    END_OBJECT         = MISSION_TARGET
+
+  END_OBJECT           = MISSION_HOST
+
+  OBJECT             = MISSION_REFERENCE_INFORMATION
+    REFERENCE_KEY_ID = "CRISPETAL2003"
+  END_OBJECT         = MISSION_REFERENCE_INFORMATION
+
+  OBJECT             = MISSION_REFERENCE_INFORMATION
+    REFERENCE_KEY_ID = "GOLOMBEKETAL2003"
+  END_OBJECT         = MISSION_REFERENCE_INFORMATION
+
+    OBJECT             = MISSION_REFERENCE_INFORMATION
+    REFERENCE_KEY_ID = "SEIDELMANNETAL2002"
+  END_OBJECT         = MISSION_REFERENCE_INFORMATION
+
+END_OBJECT           = MISSION
+
+END
+
+

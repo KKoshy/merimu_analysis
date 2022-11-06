@@ -1,0 +1,34 @@
+PDS_VERSION_ID                   = PDS3                                       
+RECORD_TYPE = FIXED_LENGTH                                                    
+RECORD_BYTES = 80                                                             
+                                                                              
+OBJECT                = TEXT                                                  
+  PUBLICATION_DATE    = 2004-08-11                                            
+  NOTE                = "Description of contents in the INDEX subdirectory."  
+END_OBJECT            = TEXT                                                  
+END                                                                           
+                                                                              
+                                                                              
+                                                                              
+             Content Description of the INDEX Subdirectory                    
+                                                                              
+                                                                              
+                                                                              
+     The INDEX subdirectory on this CD-ROM volume contains the completed      
+index of data files on this volume. The index file is in ASCII.  Each line is 
+delimited with a carriage-return (ASCII 13) line-feed (ASCII 10) pair.        
+                                                                              
+INDEX.TAB                                                                     
+     An ASCII table containing an index of data files on this CD.             
+     Columns included in this table are:                                      
+        Path to data file                                                     
+        Data file name                                                        
+        PRODUCT_ID                                                            
+        DATA_SET_ID                                                           
+        START_TIME                                                            
+        STOP_TIME                                                             
+        RECORD_BYTES                                                          
+        FILE_RECORDS                                                          
+                                                                              
+INDXINFO.TXT                                                                  
+     This file.                                                               
