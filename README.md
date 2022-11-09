@@ -8,7 +8,7 @@ Both the rovers carried identical, sophisticated sets of science instruments and
 
 The Inertial Measurement Unit measures the angular rate of the Rovers.<br>
 
-
+![imu img](.github/images/mars_rover_aeroshell.jpg)
 
 Each rover was provided with two Inertial Measurement Units(IMU), one within the rover and one within the backshell.<br>
 The dataset used here includes reduced data from includes from Entry, Descent, and Landing (EDL) phases of each rover mission, specifically measurements from the accelerometers and gyros within the two inertial measurement units (IMUs).
