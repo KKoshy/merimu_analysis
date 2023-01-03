@@ -46,4 +46,3 @@ The sample reports of the analysis can be found underneath, reports directory.
 ## Note
 
 Corrections and suggestions are always welcome.<br>
-Kindly share your thoughts via kamalikoshy97@gmail.com
